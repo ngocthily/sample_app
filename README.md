@@ -7,6 +7,12 @@ Learn Web Development with Rails*](https://www.railstutorial.org/)
 by [Michael Hartl](https://www.michaelhartl.com/).
 
 To view on Heroku: [Click here](https://gentle-eyrie-90936.herokuapp.com/)
+
+#### Quick routes
+* ```/``` or ```/static_pages/home``` -> view home page
+* ```/static_pages/help``` -> view help page
+* ```/static_pages/about``` -> view about page
+* ```/static_pages/contact``` -> view contact page
 ## License
 
 All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
@@ -23,7 +29,7 @@ $ bundle _2.2.13_ config set --local without 'production'
 $ bundle _2.2.13_ install
 ```
 
-Next, migrate the database:
+Next, migrate the database (not needed at the moment):
 
 ```
 $ rails db:migrate
